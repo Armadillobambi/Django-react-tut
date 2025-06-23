@@ -1,5 +1,5 @@
 from django.urls import path
-from api.views import views
+from . import views
 
 urlpatterns = [
     path('notes/', views.NoteListCreate.as_view(), name='note-list-create'),
