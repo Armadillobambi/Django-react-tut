@@ -13,7 +13,7 @@ function LogOut() {
 
 function RegisterAndLogout() {
   localStorage.clear();
-  return <Navigate to="/register" />;
+  return <Register />;
 }
 
 function App() {
